@@ -4,6 +4,10 @@ from sqlalchemy.orm import sessionmaker
 
 DATABASE_URL = os.getenv("DATABASE_URL")
 
+print("==== DATABASE_URL ====")
+print(DATABASE_URL)
+print("======================")
+
 engine = create_engine(DATABASE_URL)
 
 SessionLocal = sessionmaker(
