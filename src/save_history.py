@@ -41,7 +41,7 @@ def save_history(
 
         prediction = PredictionResult(
             user_input_id=user.id,
-            prediksi_harga=prediksi_harga,
+            prediksi_harga=float(prediksi_harga),
             cluster=cluster)
 
         db.add(prediction)
