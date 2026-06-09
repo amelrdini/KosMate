@@ -31,8 +31,6 @@ Selain itu, proyek ini mengimplementasikan konsep MLOps melalui containerization
 
 ![Recommendation](docs/recommendation.png)
 
-> Ganti gambar di atas sesuai screenshot aplikasi yang kamu miliki.
-
 ---
 
 ## ✨ Fitur Utama
@@ -167,7 +165,7 @@ KosMate/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/USERNAME/KosMate.git
+git clone https://github.com/amelrdini/KosMate.git
 cd KosMate
 ```
 
@@ -180,7 +178,7 @@ docker compose up --build
 Frontend:
 
 ```bash
-http://localhost:3001
+http://localhost:3000
 ```
 
 Backend:
@@ -201,28 +199,26 @@ http://localhost:8000/docs
 
 ### Frontend
 
-Deployed using Vercel.
+Vercel: https://kosmate-theta.vercel.app/
 
 ### Backend
 
-Deployed using Railway.
+Railway:https://kosmate-production.up.railway.app/
 
 ### Database
 
-PostgreSQL hosted on Railway.
+PostgreSQL hosted on Railway
 
 ### Container Registry
 
-DockerHub
+DockerHub: https://hub.docker.com/r/ameliardini2/kosmate-backend
 
 ---
 
 ## 👥 Team
 
-Project developed as part of the Machine Learning Operations (MLOps) course project.
+- zerlyna
+- amelrdini
+- zarahrnw
 
 ---
-
-## 📜 License
-
-This project is developed for educational and academic purposes.
