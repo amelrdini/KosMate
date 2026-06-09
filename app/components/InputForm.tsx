@@ -84,7 +84,7 @@ export default function InputForm({ onSubmit, loading }: Props) {
           <p style={{ fontSize: "12px", fontWeight: 600, color: gray, marginBottom: "8px" }}>Jarak dari PENS (km)</p>
           <input
             type="text"
-            placeholder="TES DOCKER"
+            placeholder="Contoh: 1.5"
             value={form.jarak === 0 ? "" : form.jarak}
             onChange={(e) => {
               const val = e.target.value;
