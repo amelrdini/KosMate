@@ -9,7 +9,7 @@
 
 ## 📌 Overview
 
-KosMate merupakan sistem rekomendasi kos yang dikembangkan untuk membantu mahasiswa menemukan kos yang sesuai dengan kebutuhan dan preferensinya.
+KosMate merupakan sistem rekomendasi kos yang dikembangkan untuk membantu mahasiswa PENS menemukan kos yang sesuai dengan kebutuhan dan preferensinya.
 
 Sistem ini memanfaatkan Machine Learning untuk:
 
@@ -33,7 +33,7 @@ Selain itu, proyek ini mengimplementasikan konsep MLOps melalui containerization
 
 ---
 
-## ✨ Fitur Utama
+## Fitur Utama
 
 ### Prediksi Harga Kos
 
@@ -75,7 +75,7 @@ Digunakan untuk prediksi harga kos.
 **Alasan Pemilihan:**
 
 * Mampu menangani hubungan non-linear antar fitur.
-* Lebih stabil dibandingkan Decision Tree.
+* Lebih stabil dibandingkan Decision Tree dan KNN.
 * Memberikan performa terbaik dibandingkan model lain yang diuji.
 
 **Hasil Evaluasi:**

@@ -1,29 +1,20 @@
 from src.database import SessionLocal
-
 from src.models_db import (
     UserInput,
     PredictionResult,
-    RecommendationHistory
-)
+    RecommendationHistory)
 
-# =========================
 # SAVE HISTORY
-# =========================
-
 def save_history(
     data,
     prediksi_harga,
     cluster,
-    rekomendasi
-):
+    rekomendasi):
 
     db = SessionLocal()
     try:
 
-        # =========================
         # SIMPAN USER INPUT
-        # =========================
-
         user = UserInput(
             jarak=data["jarak"],
             jenis=data["jenis"],
@@ -37,8 +28,6 @@ def save_history(
         db.commit()
         db.refresh(user)
 
-        # SIMPAN HASIL PREDIKSI
-
         prediction = PredictionResult(
             user_input_id=user.id,
             prediksi_harga=float(prediksi_harga),
@@ -48,7 +37,6 @@ def save_history(
         db.commit()
         db.refresh(prediction)
 
-        # SIMPAN REKOMENDASI
         for kos in rekomendasi:
             rec = RecommendationHistory(
                 prediction_result_id=prediction.id,

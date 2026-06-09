@@ -5,15 +5,12 @@ from sqlalchemy import (
     Float,
     ForeignKey,
     DateTime)
-
 from sqlalchemy.orm import declarative_base
 from datetime import datetime
 
 Base = declarative_base()
 
-# =========================
 # USER INPUT
-# =========================
 
 class UserInput(Base):
 
@@ -35,12 +32,9 @@ class UserInput(Base):
         DateTime,
         default=datetime.utcnow)
 
-# =========================
 # PREDICTION RESULT
-# =========================
 
 class PredictionResult(Base):
-
     __tablename__ = "prediction_result"
 
     id = Column(

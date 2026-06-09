@@ -5,19 +5,13 @@ from src.predict import (
     predict_price,
     predict_cluster)
 
-from src.recommendation import (
-    get_recommendation
-    )
+from src.recommendation import (get_recommendation)
 from src.database import engine
 print(engine)
 from src.save_history import save_history
 from fastapi.middleware.cors import CORSMiddleware
 
-# =========================
 # FASTAPI
-# =========================
-
-app = FastAPI()
 
 app = FastAPI()
 
@@ -29,20 +23,13 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-# =========================
 # ROOT
-# =========================
 
 @app.get("/")
 def home():
+    return {"message": "KosMate Backend Running"}
 
-    return {
-        "message": "KosMate Backend Running"
-    }
-
-# =========================
 # PREDICT
-# =========================
 
 @app.post("/predict")
 def predict(data: dict):
