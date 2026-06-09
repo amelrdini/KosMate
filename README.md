@@ -9,7 +9,7 @@
 
 ## 📌 Overview
 
-KosMate merupakan sistem rekomendasi kos yang dikembangkan untuk membantu mahasiswa PENS menemukan kos yang sesuai dengan kebutuhan dan preferensinya.
+KosMate merupakan sistem rekomendasi kos yang dikembangkan untuk membantu mahasiswa PENS menemukan kos yang sesuai dengan kebutuhan dan preferensinya. Asisten pencarian kos ini juga membantu memberikan pandangan kepada mahasiswa PENS yang akan mencari kos didaerah surabaya, khususnya sekitar kampus PENS terkait harga berdasarkan preferensi yang mereka inginkan.
 
 Sistem ini memanfaatkan Machine Learning untuk:
 
@@ -21,7 +21,7 @@ Selain itu, proyek ini mengimplementasikan konsep MLOps melalui containerization
 
 ---
 
-## 🖥️ Tampilan Aplikasi
+## Tampilan Aplikasi
 
 ### Homepage
 
@@ -60,13 +60,9 @@ Mengelompokkan kos menggunakan K-Means berdasarkan:
 
 Memberikan rekomendasi kos berdasarkan preferensi pengguna.
 
-### Dashboard Interaktif
-
-Menampilkan informasi kos dan hasil rekomendasi secara visual dan mudah dipahami.
-
 ---
 
-## 🧠 Machine Learning Model
+## Machine Learning Model
 
 ### Random Forest Regressor
 
