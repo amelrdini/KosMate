@@ -19,6 +19,7 @@ def get_recommendation(
     SELECT
         id,
         nama_kos AS "Nama Kos",
+        alamat AS "Alamat",
         jenis AS "Jenis",
         harga AS "Harga",
         jarak AS "Jarak dari PENS",

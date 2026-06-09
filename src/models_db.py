@@ -68,6 +68,7 @@ class KosData(Base):
         index=True)
 
     nama_kos = Column(String)
+    alamat = Column(String)
     jenis = Column(String)
     harga = Column(Float)
     jarak = Column(Float)

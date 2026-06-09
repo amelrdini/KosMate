@@ -18,6 +18,7 @@ for _, row in df.iterrows():
     kos = KosData(
 
         nama_kos=row["Nama Kos"],
+        alamat=row["Alamat"],
         jenis=row["Jenis"],
         harga=row["Harga"],
         jarak=row["Jarak dari PENS"],
